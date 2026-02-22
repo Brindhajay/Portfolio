@@ -1,0 +1,35 @@
+#contact {
+  text-align: center;
+}
+
+.contact-text {
+  margin-bottom: 30px;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  background: #0ea5e9;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background: #38bdf8;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #0ea5e9;
+}

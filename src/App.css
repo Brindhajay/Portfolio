@@ -1,0 +1,75 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+  font-family: "Segoe UI", sans-serif;
+
+  background-color: #020617;
+
+  color: white;
+
+  scroll-behavior: smooth;
+}
+
+/* APP */
+
+.App {
+  width: 100%;
+}
+
+/* ALL SECTIONS */
+
+.section {
+  padding-top: 80px; /* space for navbar */
+
+  padding-bottom: 40px; /* small clean spacing */
+}
+
+/* ONLY HOME FULL SCREEN */
+
+#home {
+  min-height: calc(100vh - 70px);
+
+  display: flex;
+
+  align-items: center;
+}
+
+/* REMOVE ANY EXTRA SPACE FROM OTHER SECTIONS */
+
+#about,
+#skills,
+#projects,
+#contact {
+  min-height: auto;
+
+  padding-top: 60px;
+
+  padding-bottom: 40px;
+}
+
+/* REMOVE DEFAULT SPACE FROM COMPONENTS */
+
+section > * {
+  margin-top: 0;
+
+  margin-bottom: 0;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00bfff;
+  border-radius: 10px;
+}
