@@ -73,3 +73,33 @@ section > * {
   background: #00bfff;
   border-radius: 10px;
 }
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .home-container,
+  .about-container,
+  .projects-container,
+  .skills-container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .home-image img {
+    width: 250px;
+    margin-top: 20px;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .skills-category {
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
